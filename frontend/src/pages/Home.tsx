@@ -3,7 +3,7 @@ import { useState } from "react";
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 type RewriteStyle = "simple" | "professional" | "shorter" | "detailed";
-
+// works yep
 interface SummaryResult {
   url: string;
   title: string;
